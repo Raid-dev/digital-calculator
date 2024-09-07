@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="icon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!-------------- CALCULATOR --------------->
+    <div id="calculator" class="type-1">
+      <!-------------- RESULT BAR --------------->
+      <div id="result-section">
+        <div id="result-bar">
+          <span id="equal-sign">=</span>
+          <div id="result">0</div>
+        </div>
+      </div>
+
+      <!-------------- CALCULATION BAR --------------->
+      <div id="calculation-bar"></div>
+
+      <!-------------- BUTTONS --------------->
+      <div id="buttons">
+        <button id="CE-button" class="type-2"><span>CE</span></button>
+        <button id="paranthesis-button" class="type-2"><span>( )</span></button>
+        <button id="percentage-button" class="type-2"><span>%</span></button>
+        <button id="divide-button" class="type-2"><span>/</span></button>
+        <button id="number7-button" class="type-3"><span>7</span></button>
+        <button id="number8-button" class="type-3"><span>8</span></button>
+        <button id="number9-button" class="type-3"><span>9</span></button>
+        <button id="multiply-button" class="type-2"><span>*</span></button>
+        <button id="number4-button" class="type-3"><span>4</span></button>
+        <button id="number5-button" class="type-3"><span>5</span></button>
+        <button id="number6-button" class="type-3"><span>6</span></button>
+        <button id="minus-button" class="type-2"><span>-</span></button>
+        <button id="number1-button" class="type-3"><span>1</span></button>
+        <button id="number2-button" class="type-3"><span>2</span></button>
+        <button id="number3-button" class="type-3"><span>3</span></button>
+        <button id="plus-button" class="type-2"><span>+</span></button>
+        <button id="dot-button" class="type-3"><span>.</span></button>
+        <button id="number0-button" class="type-3"><span>0</span></button>
+        <button id="equal-button" class="type-2"><span>=</span></button>
+      </div>
+    </div>
+    <!----------------------------------------->
+
+    <!-------------- COLORS --------------->
+    <div id="color-container">
+      <button id="color-1" class="colors" title="Pink / Yellow style"></button>
+
+      <button id="color-2" class="colors" title="Green / Orange style"></button>
+
+      <button
+        id="color-3"
+        class="colors"
+        title="DarkBlue / Blue style"
+      ></button>
+
+      <button
+        id="color-4"
+        class="colors"
+        title="DarkBlue / Violet style"
+      ></button>
+    </div>
+    <!------------------------------------->
+
+    <script src="script.js"></script>
+  </body>
+</html>
